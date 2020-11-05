@@ -1,16 +1,24 @@
 
-
+.container-lg{
+    border: 2px solid rgb(134, 133, 133); 
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
 
 
 .col{
-    background-color: beige;
-    border: 1px solid black; 
+    height: 210px;
+    padding-top: 10px;
+    padding-left: 10%;
+    background-color: rgb(244, 239, 239);
+    border: .5px solid rgb(134, 133, 133); 
 }
 
-#image-list img{
-    height: 90%;
+#image-list img{ 
+    margin-left: 04%;
+    height: 190px;
     width: 90%;
-
+    object-fit: cover;
 }
 
 .body{
@@ -25,10 +33,18 @@
     position: fixed;
     width: 50%;
     height: 500px;
-    background-color: brown;
+    background-color: white;
     z-index: 1;
     align-content: center;
     text-align: center;
+    border: 1px solid lightgray;
+}
+
+#show-img img{
+    margin-bottom: 20px;
+    height: 430px;
+    width: 80%;
+    object-fit: cover;
 }
 
 #x{
@@ -40,14 +56,23 @@
 
 #next{
     margin-top: 30%;
+    margin-bottom: 30%;
+    background-color: white;
     margin-right: 5px;
+    border: 0px
 }
 
 #previous{
     margin-top: 30%;
+    margin-bottom: 30%;
     padding-right: 20px;
+    background-color: white;
+    border: 0px
 }
 
 #show-img{
     width: 80%;
 }
+
+
+
