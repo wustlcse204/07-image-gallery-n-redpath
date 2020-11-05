@@ -1,0 +1,53 @@
+
+
+
+
+.col{
+    background-color: beige;
+    border: 1px solid black; 
+}
+
+#image-list img{
+    height: 90%;
+    width: 90%;
+
+}
+
+.body{
+    align-content: center;
+    text-align: center;
+}
+
+#image-display{
+    display: none;
+    margin-top: 80px;
+    margin-left: 25%;
+    position: fixed;
+    width: 50%;
+    height: 500px;
+    background-color: brown;
+    z-index: 1;
+    align-content: center;
+    text-align: center;
+}
+
+#x{
+    margin-left: 96%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#next{
+    margin-top: 30%;
+    margin-right: 5px;
+}
+
+#previous{
+    margin-top: 30%;
+    padding-right: 20px;
+}
+
+#show-img{
+    width: 80%;
+}
