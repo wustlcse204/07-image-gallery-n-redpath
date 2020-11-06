@@ -1,17 +1,22 @@
 
 .container-lg{
-    border: 2px solid rgb(134, 133, 133); 
+    border: 1px solid rgb(134, 133, 133); 
     border-radius: 6px;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 5px lightgray;
 }
 
+h3{
+    padding-left: 38%;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .col{
     height: 210px;
     padding-top: 10px;
     padding-left: 10%;
     background-color: rgb(244, 239, 239);
-    border: .5px solid rgb(134, 133, 133); 
+    border: .2px solid rgb(134, 133, 133); 
 }
 
 #image-list img{ 
@@ -28,11 +33,11 @@
 
 #image-display{
     display: none;
-    margin-top: 80px;
-    margin-left: 25%;
+    margin-left: 20%;
+    margin-bottom: 40px;
     position: fixed;
-    width: 50%;
-    height: 500px;
+    width: 60%;
+    height: 600px;
     background-color: white;
     z-index: 1;
     align-content: center;
@@ -42,7 +47,7 @@
 
 #show-img img{
     margin-bottom: 20px;
-    height: 430px;
+    height: 530px;
     width: 80%;
     object-fit: cover;
 }
@@ -58,7 +63,6 @@
     margin-top: 30%;
     margin-bottom: 30%;
     background-color: white;
-    margin-right: 5px;
     border: 0px
 }
 
